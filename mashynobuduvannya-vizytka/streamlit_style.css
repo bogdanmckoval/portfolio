@@ -1,0 +1,35 @@
+/* Тонкий шар поверх теми зі .streamlit/config.toml — тільки деталі,
+   яких немає в стандартній темі Streamlit. */
+
+/* Мітка-бейдж: навички, теги проєктів. Моноширинний, як позначення на кресленні. */
+.pill {
+    display: inline-block;
+    margin: 3px 6px 3px 0;
+    padding: 5px 12px;
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+    font-size: 0.78rem;
+    border: 1px solid #ff8a1e;
+    border-radius: 999px;
+    color: #ff8a1e;
+}
+
+.eyebrow {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, monospace;
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #ff8a1e;
+}
+
+/* Картки послуг/проєктів — рамка контейнера, підсвічена зліва. */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 10px;
+    border-left: 3px solid #ff8a1e;
+}
+
+/* Крок процесу: великий номер зліва. */
+.step-num {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #ff8a1e;
+}
