@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Механічна Інженерія — приклад сайту-візитки для машинобудування</title>
+<meta name="description" content="Приклад сайту-візитки для сфери машинобудування: 3D-моделювання, CAD/CAM, CNC-програмування, розробка та модернізація обладнання.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Про мене</a></li>
+      <li><a href="#services">Послуги</a></li>
+      <li><a href="#skills">Інструменти</a></li>
+      <li><a href="#projects">Проєкти</a></li>
+      <li><a href="#process">Процес</a></li>
+      <li><a href="#contact" class="nav-cta">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Інженер-конструктор · Машинобудування</p>
+      <h1>Механічна Інженерія</h1>
+      <p class="hero-lead">
+        Проєктую та розраховую механізми, вузли й обладнання —
+        від ескізу до робочої документації та запуску у виробництво.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Обговорити проєкт</a>
+        <a href="#projects" class="btn btn-ghost">Дивитись роботи</a>
+      </div>
+      <ul class="hero-stats">
+        <li><strong>7+</strong><span>років у машинобудуванні</span></li>
+        <li><strong>40+</strong><span>завершених проєктів</span></li>
+        <li><strong>6</strong><span>CAD/CAM/CAE систем</span></li>
+      </ul>
+    </div>
+    <div class="hero-art reveal" aria-hidden="true">
+      <div class="blueprint-ring"></div>
+      <div class="gear-slot gear-slot-a">
+        <svg viewBox="0 0 400 400" class="gear-spin-slow">
+          <path fill="none" stroke="var(--accent)" stroke-width="6" stroke-linejoin="round"
+            d="M200.0,45.0 L200.0,15.0 L236.1,18.6 L230.2,48.0 L259.3,56.8 L270.8,29.1 L302.8,46.2 L286.1,71.1 L309.6,90.4 L330.8,69.2 L353.8,97.2 L328.9,113.9 L343.2,140.7 L370.9,129.2 L381.4,163.9 L352.0,169.8 L355.0,200.0 L385.0,200.0 L381.4,236.1 L352.0,230.2 L343.2,259.3 L370.9,270.8 L353.8,302.8 L328.9,286.1 L309.6,309.6 L330.8,330.8 L302.8,353.8 L286.1,328.9 L259.3,343.2 L270.8,370.9 L236.1,381.4 L230.2,352.0 L200.0,355.0 L200.0,385.0 L163.9,381.4 L169.8,352.0 L140.7,343.2 L129.2,370.9 L97.2,353.8 L113.9,328.9 L90.4,309.6 L69.2,330.8 L46.2,302.8 L71.1,286.1 L56.8,259.3 L29.1,270.8 L18.6,236.1 L48.0,230.2 L45.0,200.0 L15.0,200.0 L18.6,163.9 L48.0,169.8 L56.8,140.7 L29.1,129.2 L46.2,97.2 L71.1,113.9 L90.4,90.4 L69.2,69.2 L97.2,46.2 L113.9,71.1 L140.7,56.8 L129.2,29.1 L163.9,18.6 L169.8,48.0 Z"/>
+          <circle cx="200" cy="200" r="46" fill="none" stroke="var(--accent)" stroke-width="6"/>
+        </svg>
+      </div>
+      <div class="gear-slot gear-slot-b">
+        <svg viewBox="0 0 300 300" class="gear-spin-fast">
+          <path fill="none" stroke="var(--accent-2)" stroke-width="6" stroke-linejoin="round"
+            d="M150.0,35.0 L150.0,10.0 L193.3,16.9 L185.5,40.6 L217.6,57.0 L232.3,36.7 L263.3,67.7 L243.0,82.4 L259.4,114.5 L283.1,106.7 L290.0,150.0 L265.0,150.0 L259.4,185.5 L283.1,193.3 L263.3,232.3 L243.0,217.6 L217.6,243.0 L232.3,263.3 L193.3,283.1 L185.5,259.4 L150.0,265.0 L150.0,290.0 L106.7,283.1 L114.5,259.4 L82.4,243.0 L67.7,263.3 L36.7,232.3 L57.0,217.6 L40.6,185.5 L16.9,193.3 L10.0,150.0 L35.0,150.0 L40.6,114.5 L16.9,106.7 L36.7,67.7 L57.0,82.4 L82.4,57.0 L67.7,36.7 L106.7,16.9 L114.5,40.6 Z"/>
+          <circle cx="150" cy="150" r="34" fill="none" stroke="var(--accent-2)" stroke-width="6"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Про мене</p>
+      <h2>Інженерія — це точність, помножена на творчість</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text reveal">
+        Я інженер-конструктор, який спеціалізується на машинобудуванні: проєктую механізми та вузли,
+        готую 3D-моделі й розрахунки, супроводжую виготовлення деталей — від першого ескізу
+        до запуску обладнання в роботу. Працюю як з новими розробками, так і з модернізацією
+        наявних ліній та верстатів, шукаючи баланс між надійністю конструкції, технологічністю
+        виготовлення та собівартістю.
+      </p>
+      <ul class="about-points reveal">
+        <li>Проєктування вузлів та механізмів у CAD-системах</li>
+        <li>Міцнісні розрахунки та симуляції (FEA)</li>
+        <li>Підготовка робочої конструкторської документації</li>
+        <li>Технологічний супровід виготовлення та впровадження</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Послуги</p>
+      <h2>Чим можу бути корисним</h2>
+    </div>
+    <div class="cards-grid">
+
+      <article class="card reveal">
+        <div class="card-icon">⚙</div>
+        <h3>3D-моделювання та CAD-проєктування</h3>
+        <p>Розробка деталей, вузлів та складальних одиниць у сучасних CAD-системах.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">🛠</div>
+        <h3>CAM / CNC-програмування</h3>
+        <p>Підготовка керуючих програм для верстатів з ЧПК, оптимізація траєкторій обробки.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">🧩</div>
+        <h3>Розробка та модернізація обладнання</h3>
+        <p>Проєктування нових вузлів і апгрейд існуючих ліній та механізмів під нові задачі.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">📐</div>
+        <h3>Інженерні розрахунки та FEA</h3>
+        <p>Перевірка міцності, жорсткості й довговічності конструкцій до запуску у виробництво.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">📄</div>
+        <h3>Конструкторська документація</h3>
+        <p>Креслення, специфікації, BOM та комплекти документів за держстандартами.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">💬</div>
+        <h3>Технічні консультації</h3>
+        <p>Аудит конструкції, допомога з вибором матеріалів, технологій виготовлення й постачальників.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Інструменти</p>
+      <h2>З чим працюю щодня</h2>
+    </div>
+    <div class="skills-row reveal">
+      <span class="skill-pill">3D-моделювання</span>
+      <span class="skill-pill">Параметричне проєктування</span>
+      <span class="skill-pill">Розрахунки та симуляції (FEA)</span>
+      <span class="skill-pill">CNC-програмування</span>
+      <span class="skill-pill">ГОСТ / ДСТУ</span>
+      <span class="skill-pill">STEP · IGES · DXF</span>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Проєкти</p>
+      <h2>Приклади робіт</h2>
+      <p class="section-note">Демонстраційні приклади для портфоліо — деталі проєктів надаються за запитом.</p>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><path fill="none" stroke="var(--accent)" stroke-width="6" d="M60 10l7 16 17-5 3 18 18 2-5 17 14 11-14 11 5 17-18 2-3 18-17-5-7 16-7-16-17 5-3-18-18-2 5-17-14-11 14-11-5-17 18-2 3-18 17 5z"/><circle cx="60" cy="60" r="18" fill="none" stroke="var(--accent)" stroke-width="6"/></svg>
+        </div>
+        <h3>Редуктор приводу конвеєра</h3>
+        <p>3D-модель, розрахунок передавальних чисел та міцності зубчастих коліс, комплект креслень.</p>
+        <span class="tag">3D-модель · FEA</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><rect x="20" y="30" width="80" height="60" rx="6" fill="none" stroke="var(--accent-2)" stroke-width="6"/><line x1="20" y1="60" x2="100" y2="60" stroke="var(--accent-2)" stroke-width="6"/></svg>
+        </div>
+        <h3>Модернізація конвеєрної лінії</h3>
+        <p>Оновлення механізму натягу стрічки, перерахунок навантажень, документація для впровадження.</p>
+        <span class="tag">Модернізація</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="40" fill="none" stroke="var(--accent)" stroke-width="6"/><circle cx="60" cy="60" r="14" fill="none" stroke="var(--accent)" stroke-width="6"/></svg>
+        </div>
+        <h3>Оснастка для верстата з ЧПК</h3>
+        <p>Проєктування затискного пристрою, CAM-програма обробки, тестове виготовлення партії деталей.</p>
+        <span class="tag">CAM-програмування</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><polygon points="60,15 100,85 20,85" fill="none" stroke="var(--accent-2)" stroke-width="6"/></svg>
+        </div>
+        <h3>Прототип функціональної деталі</h3>
+        <p>Швидке 3D-моделювання, друк прототипу, ітеративне доопрацювання геометрії за результатами тестів.</p>
+        <span class="tag">Прототипування</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section id="process" class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Процес роботи</p>
+      <h2>Як будується співпраця</h2>
+    </div>
+    <ol class="process-steps">
+      <li class="reveal"><span class="step-num">01</span><div><h3>Технічне завдання</h3><p>Уточнюємо задачу, вимоги, обмеження та очікуваний результат.</p></div></li>
+      <li class="reveal"><span class="step-num">02</span><div><h3>Ескізне проєктування</h3><p>Пропоную варіанти конструктивних рішень і обираємо оптимальний.</p></div></li>
+      <li class="reveal"><span class="step-num">03</span><div><h3>3D-модель і розрахунки</h3><p>Деталізована модель, перевірка міцності та технологічності.</p></div></li>
+      <li class="reveal"><span class="step-num">04</span><div><h3>Робоча документація</h3><p>Креслення, специфікації, BOM — усе, що потрібно для виготовлення.</p></div></li>
+      <li class="reveal"><span class="step-num">05</span><div><h3>Супровід виробництва</h3><p>Підтримка на етапі виготовлення, монтажу та запуску.</p></div></li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container contact-section">
+    <div class="section-head reveal">
+      <p class="eyebrow">Контакти</p>
+      <h2>Обговоримо ваш проєкт?</h2>
+      <p class="section-note">Напишіть кілька слів про задачу — відповім і запропоную наступні кроки.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <label>
+          Ім'я
+          <input type="text" name="name" required placeholder="Як до вас звертатися">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          Повідомлення
+          <textarea name="message" rows="4" required placeholder="Коротко опишіть задачу"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Надіслати</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email</strong><br>your.email@example.com</p>
+        <p><strong>Телефон</strong><br>+380 (00) 000-00-00</p>
+        <p><strong>Локація</strong><br>Україна · дистанційно</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
