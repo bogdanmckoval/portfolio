@@ -40,8 +40,8 @@ cols = st.columns(len(content.STATS))
 for col, (number, label) in zip(cols, content.STATS):
     with col:
         st.markdown(
-            f"<div style='font-size:1.6rem;font-weight:800;color:#ff8a1e'>{number}</div>"
-            f"<div style='color:#9aa7b8;font-size:0.85rem'>{label}</div>",
+            f"<div style='font-size:1.6rem;font-weight:800;color:#1d5fe0'>{number}</div>"
+            f"<div style='color:#5b6b85;font-size:0.85rem'>{label}</div>",
             unsafe_allow_html=True,
         )
 
@@ -54,7 +54,7 @@ st.write(content.ABOUT_TEXT)
 
 for point in content.ABOUT_POINTS:
     st.markdown(
-        f"<div style='border-left:3px solid #ff8a1e;background:#161e2b;"
+        f"<div style='border-left:3px solid #1d5fe0;background:#f3f6fb;"
         f"padding:10px 14px;margin-bottom:8px;border-radius:8px'>{point}</div>",
         unsafe_allow_html=True,
     )
