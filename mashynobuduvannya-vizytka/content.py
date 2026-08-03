@@ -69,6 +69,12 @@ GALLERY = [
     ("https://images.pexels.com/photos/11157438/pexels-photo-11157438.jpeg?auto=compress&cs=tinysrgb&w=700", "Деталі складального вузла"),
     ("https://images.pexels.com/photos/29226626/pexels-photo-29226626.jpeg?auto=compress&cs=tinysrgb&w=700", "Вузол двигуна"),
     ("https://images.pexels.com/photos/633850/machine-mill-industry-steam-633850.jpeg?auto=compress&cs=tinysrgb&w=700", "Зубчаста передача"),
+    ("https://images.pexels.com/photos/3158651/pexels-photo-3158651.jpeg?auto=compress&cs=tinysrgb&w=700", "Зварювальні роботи"),
+    ("https://images.pexels.com/photos/32633664/pexels-photo-32633664.jpeg?auto=compress&cs=tinysrgb&w=700", "Точні вимірювальні інструменти"),
+    ("https://images.pexels.com/photos/19278850/pexels-photo-19278850.jpeg?auto=compress&cs=tinysrgb&w=700", "3D-друк деталі"),
+    ("https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&w=700", "Виробничий цех"),
+    ("https://images.pexels.com/photos/34221993/pexels-photo-34221993.jpeg?auto=compress&cs=tinysrgb&w=700", "Автоматизована лінія"),
+    ("https://images.pexels.com/photos/34221997/pexels-photo-34221997.jpeg?auto=compress&cs=tinysrgb&w=700", "Сучасне обладнання"),
 ]
 
 # Кожен елемент — крок процесу: (номер, заголовок, опис).
