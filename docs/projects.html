@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Проєкти — Механічна Інженерія</title>
+<meta name="description" content="Приклади робіт для портфоліо: редуктори, модернізація ліній, оснастка для ЧПК, прототипи деталей.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html">Про мене</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="projects.html" class="active">Проєкти</a></li>
+      <li><a href="contact.html" class="nav-cta">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- PROJECTS -->
+  <section class="section container" style="padding-top: 60px;">
+    <div class="section-head reveal">
+      <p class="eyebrow">Проєкти</p>
+      <h2>Приклади робіт</h2>
+      <p class="section-note">Демонстраційні приклади для портфоліо — деталі проєктів надаються за запитом.</p>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><path fill="none" stroke="var(--accent)" stroke-width="6" d="M60 10l7 16 17-5 3 18 18 2-5 17 14 11-14 11 5 17-18 2-3 18-17-5-7 16-7-16-17 5-3-18-18-2 5-17-14-11 14-11-5-17 18-2 3-18 17 5z"/><circle cx="60" cy="60" r="18" fill="none" stroke="var(--accent)" stroke-width="6"/></svg>
+        </div>
+        <h3>Редуктор приводу конвеєра</h3>
+        <p>3D-модель, розрахунок передавальних чисел та міцності зубчастих коліс, комплект креслень.</p>
+        <span class="tag">3D-модель · FEA</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><rect x="20" y="30" width="80" height="60" rx="6" fill="none" stroke="var(--accent-2)" stroke-width="6"/><line x1="20" y1="60" x2="100" y2="60" stroke="var(--accent-2)" stroke-width="6"/></svg>
+        </div>
+        <h3>Модернізація конвеєрної лінії</h3>
+        <p>Оновлення механізму натягу стрічки, перерахунок навантажень, документація для впровадження.</p>
+        <span class="tag">Модернізація</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="40" fill="none" stroke="var(--accent)" stroke-width="6"/><circle cx="60" cy="60" r="14" fill="none" stroke="var(--accent)" stroke-width="6"/></svg>
+        </div>
+        <h3>Оснастка для верстата з ЧПК</h3>
+        <p>Проєктування затискного пристрою, CAM-програма обробки, тестове виготовлення партії деталей.</p>
+        <span class="tag">CAM-програмування</span>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-thumb">
+          <svg viewBox="0 0 120 120"><polygon points="60,15 100,85 20,85" fill="none" stroke="var(--accent-2)" stroke-width="6"/></svg>
+        </div>
+        <h3>Прототип функціональної деталі</h3>
+        <p>Швидке 3D-моделювання, друк прототипу, ітеративне доопрацювання геометрії за результатами тестів.</p>
+        <span class="tag">Прототипування</span>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Про мене — Механічна Інженерія</title>
+<meta name="description" content="Про інженера-конструктора: підхід до роботи та етапи співпраці над проєктами машинобудування.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html" class="active">Про мене</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="projects.html">Проєкти</a></li>
+      <li><a href="contact.html" class="nav-cta">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ABOUT -->
+  <section class="section container" style="padding-top: 60px;">
+    <div class="section-head reveal">
+      <p class="eyebrow">Про мене</p>
+      <h2>Інженерія — це точність, помножена на творчість</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text reveal">
+        Я інженер-конструктор, який спеціалізується на машинобудуванні: проєктую механізми та вузли,
+        готую 3D-моделі й розрахунки, супроводжую виготовлення деталей — від першого ескізу
+        до запуску обладнання в роботу. Працюю як з новими розробками, так і з модернізацією
+        наявних ліній та верстатів, шукаючи баланс між надійністю конструкції, технологічністю
+        виготовлення та собівартістю.
+      </p>
+      <ul class="about-points reveal">
+        <li>Проєктування вузлів та механізмів у CAD-системах</li>
+        <li>Міцнісні розрахунки та симуляції (FEA)</li>
+        <li>Підготовка робочої конструкторської документації</li>
+        <li>Технологічний супровід виготовлення та впровадження</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Процес роботи</p>
+      <h2>Як будується співпраця</h2>
+    </div>
+    <ol class="process-steps">
+      <li class="reveal"><span class="step-num">01</span><div><h3>Технічне завдання</h3><p>Уточнюємо задачу, вимоги, обмеження та очікуваний результат.</p></div></li>
+      <li class="reveal"><span class="step-num">02</span><div><h3>Ескізне проєктування</h3><p>Пропоную варіанти конструктивних рішень і обираємо оптимальний.</p></div></li>
+      <li class="reveal"><span class="step-num">03</span><div><h3>3D-модель і розрахунки</h3><p>Деталізована модель, перевірка міцності та технологічності.</p></div></li>
+      <li class="reveal"><span class="step-num">04</span><div><h3>Робоча документація</h3><p>Креслення, специфікації, BOM — усе, що потрібно для виготовлення.</p></div></li>
+      <li class="reveal"><span class="step-num">05</span><div><h3>Супровід виробництва</h3><p>Підтримка на етапі виготовлення, монтажу та запуску.</p></div></li>
+    </ol>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

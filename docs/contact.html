@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Контакти — Механічна Інженерія</title>
+<meta name="description" content="Звʼяжіться щодо проєкту з машинобудування: форма звʼязку, email, телефон.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html">Про мене</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="projects.html">Проєкти</a></li>
+      <li><a href="contact.html" class="nav-cta active">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- CONTACT -->
+  <section class="section container contact-section" style="padding-top: 60px;">
+    <div class="section-head reveal">
+      <p class="eyebrow">Контакти</p>
+      <h2>Обговоримо ваш проєкт?</h2>
+      <p class="section-note">Напишіть кілька слів про задачу — відповім і запропоную наступні кроки.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <form class="contact-form" action="mailto:your.email@example.com" method="post" enctype="text/plain">
+        <label>
+          Ім'я
+          <input type="text" name="name" required placeholder="Як до вас звертатися">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com">
+        </label>
+        <label>
+          Повідомлення
+          <textarea name="message" rows="4" required placeholder="Коротко опишіть задачу"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Надіслати</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Email</strong><br>your.email@example.com</p>
+        <p><strong>Телефон</strong><br>+380 (00) 000-00-00</p>
+        <p><strong>Локація</strong><br>Україна · дистанційно</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@ font = "sans serif"
 
 [client]
 toolbarMode = "minimal"
-showSidebarNavigation = false
+showSidebarNavigation = true
 
 [server]
 runOnSave = true

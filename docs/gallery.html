@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Галерея — Механічна Інженерія</title>
+<meta name="description" content="Фотогалерея на тему машинобудування: шестерні, верстати з ЧПК, вузли обладнання.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html">Про мене</a></li>
+      <li><a href="services.html">Послуги</a></li>
+      <li><a href="gallery.html" class="active">Галерея</a></li>
+      <li><a href="projects.html">Проєкти</a></li>
+      <li><a href="contact.html" class="nav-cta">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- GALLERY -->
+  <section class="section container" style="padding-top: 60px;">
+    <div class="section-head reveal">
+      <p class="eyebrow">Галерея</p>
+      <h2>Машинобудування в деталях</h2>
+      <p class="section-note">Фото з відкритих джерел (Pexels) — ілюструють тематику розділу.</p>
+    </div>
+    <div class="gallery-grid">
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/239419/pexels-photo-239419.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Промислові шестерні великого механізму" loading="lazy">
+        <figcaption>Промислові шестерні</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/8956445/pexels-photo-8956445.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Обробка металу на верстаті з ЧПК" loading="lazy">
+        <figcaption>Обробка на верстаті з ЧПК</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/28929510/pexels-photo-28929510.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Токарний верстат з ЧПК у цеху" loading="lazy">
+        <figcaption>Токарний верстат у цеху</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/11157438/pexels-photo-11157438.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Деталі складального механізму зблизька" loading="lazy">
+        <figcaption>Деталі складального вузла</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/29226626/pexels-photo-29226626.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Розподільний вал у зборі двигуна" loading="lazy">
+        <figcaption>Вузол двигуна</figcaption>
+      </figure>
+      <figure class="gallery-item reveal">
+        <img src="https://images.pexels.com/photos/633850/machine-mill-industry-steam-633850.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Механізм із зубчастою передачею" loading="lazy">
+        <figcaption>Зубчаста передача</figcaption>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

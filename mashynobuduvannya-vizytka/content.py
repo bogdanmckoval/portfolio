@@ -61,6 +61,16 @@ PROJECTS = [
     ("Прототип функціональної деталі", "Швидке 3D-моделювання, друк прототипу, ітеративне доопрацювання геометрії за результатами тестів.", "Прототипування"),
 ]
 
+# Кожен елемент — фото галереї: (url, підпис). Фото з Pexels (відкрита ліцензія).
+GALLERY = [
+    ("https://images.pexels.com/photos/239419/pexels-photo-239419.jpeg?auto=compress&cs=tinysrgb&w=700", "Промислові шестерні"),
+    ("https://images.pexels.com/photos/8956445/pexels-photo-8956445.jpeg?auto=compress&cs=tinysrgb&w=700", "Обробка на верстаті з ЧПК"),
+    ("https://images.pexels.com/photos/28929510/pexels-photo-28929510.jpeg?auto=compress&cs=tinysrgb&w=700", "Токарний верстат у цеху"),
+    ("https://images.pexels.com/photos/11157438/pexels-photo-11157438.jpeg?auto=compress&cs=tinysrgb&w=700", "Деталі складального вузла"),
+    ("https://images.pexels.com/photos/29226626/pexels-photo-29226626.jpeg?auto=compress&cs=tinysrgb&w=700", "Вузол двигуна"),
+    ("https://images.pexels.com/photos/633850/machine-mill-industry-steam-633850.jpeg?auto=compress&cs=tinysrgb&w=700", "Зубчаста передача"),
+]
+
 # Кожен елемент — крок процесу: (номер, заголовок, опис).
 PROCESS = [
     ("01", "Технічне завдання", "Уточнюємо задачу, вимоги, обмеження та очікуваний результат."),

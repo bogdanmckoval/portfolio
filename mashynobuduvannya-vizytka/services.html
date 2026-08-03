@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Послуги — Механічна Інженерія</title>
+<meta name="description" content="Послуги для машинобудування: 3D-моделювання, CAM/CNC-програмування, розрахунки, конструкторська документація.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+
+<header class="site-header" id="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">
+      <svg class="logo-gear" viewBox="0 0 48 48" width="28" height="28" aria-hidden="true">
+        <path fill="currentColor" d="M24 3l2.6 5.2 5.6-1.7 1.1 5.8 5.9.4-1.7 5.6 4.7 3.7-4.7 3.7 1.7 5.6-5.9.4-1.1 5.8-5.6-1.7L24 45l-2.6-5.2-5.6 1.7-1.1-5.8-5.9-.4 1.7-5.6L5.8 24l4.7-3.7-1.7-5.6 5.9-.4 1.1-5.8 5.6 1.7L24 3z"/>
+        <circle cx="24" cy="24" r="7" fill="var(--bg)"/>
+      </svg>
+      <span>Механічна Інженерія</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="about.html">Про мене</a></li>
+      <li><a href="services.html" class="active">Послуги</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="projects.html">Проєкти</a></li>
+      <li><a href="contact.html" class="nav-cta">Зв'язатися</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- SERVICES -->
+  <section class="section container" style="padding-top: 60px;">
+    <div class="section-head reveal">
+      <p class="eyebrow">Послуги</p>
+      <h2>Чим можу бути корисним</h2>
+    </div>
+    <div class="cards-grid">
+
+      <article class="card reveal">
+        <div class="card-icon">⚙</div>
+        <h3>3D-моделювання та CAD-проєктування</h3>
+        <p>Розробка деталей, вузлів та складальних одиниць у сучасних CAD-системах.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">🛠</div>
+        <h3>CAM / CNC-програмування</h3>
+        <p>Підготовка керуючих програм для верстатів з ЧПК, оптимізація траєкторій обробки.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">🧩</div>
+        <h3>Розробка та модернізація обладнання</h3>
+        <p>Проєктування нових вузлів і апгрейд існуючих ліній та механізмів під нові задачі.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">📐</div>
+        <h3>Інженерні розрахунки та FEA</h3>
+        <p>Перевірка міцності, жорсткості й довговічності конструкцій до запуску у виробництво.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">📄</div>
+        <h3>Конструкторська документація</h3>
+        <p>Креслення, специфікації, BOM та комплекти документів за держстандартами.</p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-icon">💬</div>
+        <h3>Технічні консультації</h3>
+        <p>Аудит конструкції, допомога з вибором матеріалів, технологій виготовлення й постачальників.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Інструменти</p>
+      <h2>З чим працюю щодня</h2>
+    </div>
+    <div class="skills-row reveal">
+      <span class="skill-pill">3D-моделювання</span>
+      <span class="skill-pill">Параметричне проєктування</span>
+      <span class="skill-pill">Розрахунки та симуляції (FEA)</span>
+      <span class="skill-pill">CNC-програмування</span>
+      <span class="skill-pill">ГОСТ / ДСТУ</span>
+      <span class="skill-pill">STEP · IGES · DXF</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Механічна Інженерія. Всі права захищено.</span>
+    <span class="footer-note">Сайт-візитка · Машинобудування</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
